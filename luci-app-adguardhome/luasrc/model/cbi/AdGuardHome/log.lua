@@ -14,3 +14,4 @@ t.timereplace=(logfile~="syslog" and logfile~="" )
 t.pollcheck=logfile~=""
 fs.writefile("/var/run/lucilogreload","")
 return f
+
